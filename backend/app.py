@@ -19,7 +19,8 @@ app = FastAPI(
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
-        "https://verimind.vercel.app",
+    "https://verimind.vercel.app",
+    "https://verimind-tau.vercel.app",
     ],
     allow_credentials=True,
     allow_methods=["*"],
